@@ -11,7 +11,8 @@ import (
 	"sync"
 	"time"
 
-	client "github.com/influxdata/influxdb/client/v2"
+	// client "github.com/influxdata/influxdb/client/v2"
+	client "github.com/influxdata/influxdb1-client/v2"
 	"github.com/kardianos/osext"
 	snmp "github.com/paulstuart/snmputil"
 	"gopkg.in/gcfg.v1"
